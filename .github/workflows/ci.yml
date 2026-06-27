@@ -13,5 +13,8 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v6
 
-      - name: Test API Key
-        run: go test ./...
+      - name: Test API Key with coverage
+        run: go test -v -coverprofile=coverage.out ./...
+        
+      - name: Show coverage
+        run: go tool cover -func=coverage.out
