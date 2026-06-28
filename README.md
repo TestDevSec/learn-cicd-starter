@@ -24,3 +24,4 @@ You do *not* need to set up a database or any interactivity on the webpage yet. 
 
 DevSec's version of Boot.dev's Notely app.
 
+![alt text goes here](https://github.com/TestDevSec/learn-cicd-starter/actions/workflows/ci.yml/badge.svg)
